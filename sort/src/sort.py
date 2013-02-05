@@ -18,11 +18,9 @@ def sort(list):
                     list[j+1] =  list[j]
                     list[j] = temp
                 j = j - 1
-            i = i + 1
         return list 
         
             
-            
-            
+                        
 a = [7,3,1,2,4,6]
 print(sort(a))       
